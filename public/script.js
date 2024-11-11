@@ -1,6 +1,6 @@
-import * as THREE from '../node_modules/three/build/three.module.js';
+import * as THREE from 'three';
+import * as pdfjsLib from 'pdfjs-dist';
 
-import { pdfjsLib } from "../node_modules/pdfjs-dist/webpack.mjs";
 
 document.getElementById("upload-button").addEventListener("click", () => {
     document.getElementById("file-upload").click();
